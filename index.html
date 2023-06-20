@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:12;" class="active">Home</a>
+            <a href="#about" style="--i:13;">About</a>
+            <a href="#services" style="--i:14;">Skills</a>
+            <a href="#portfolio" style="--i:15;">Portfolio</a>
+            <a href="#contact" style="--i:16;">Contact</a>
+        </nav>
+
+        <div class="toggle">
+            <i class='bx bx-moon toggle-icon'></i>
+
+
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h3>Hey, It's me</h3>
+            <h1>Sidra Bano</h1>
+            <p> I am a Web developer and a Cyber security enthusiasts.
+                I am currently reading at VIT Bhopal University.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100055713411882&sk=photos_of" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/home" style="--i:8;"><i class='bx bxl-twitter'></i></a>
+                <a href="https://instagram.com/sidra__404__?igshid=ZGUzMzM3NWJiOQ==" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.1007796" style="--i:10;"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/sidra4040" style="--i:11;"><i class='bx bxl-github'></i></a>
+
+            </div>
+
+            <a href="images/CV1 (1).pdf" class="download-button">Download CV</a>
+
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Videographer</h3>
+                </div>
+
+                <div class="circle"></div>
+
+            </div>
+
+            <div class="overlay"></div>
+
+        </div>
+        <br>
+        <br>
+
+
+         <!-- <div class="home-img">
+        <img src="https://images.pexels.com/photos/1869322/pexels-photo-1869322.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""> 
+        </div>  -->
+
+    </section>
+    
+
+    <div id="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/home.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Sidra bano, persuing Integrated M.Tech Computer Science and Engineering with
+                        specialization in Cyber Security from VIT Bhopal University. Currently.I am a web Developer,
+                        I am skilled in Pyhton,C++,Java, HTML/CSS,Javascript and tools like Dev c++,vs code,Nmap,
+                        Burpsuite etc. My passion for learning comes from my experience as a learner who always
+                        confronted my own learning differences.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web/App interfaces</li>
+                                <li><span>App Development</span><br>Building Androids</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-current</span><br>UI/UX Design training at ET Institute</li>
+                                <li><span>2022-current</span><br>Team lead at Startup LLC</li>
+                                <li><span>2020-current</span><br>UI/UX Design Executive at Coin Digital LTD.</li>
+                                <li><span>2020-current</span><br>Internship at ekart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018(10th 94.4%)</span><br>Govt. Excellence Hr. Sec. School Damoh</li>
+                                <li><span>2020(12th 95.8%)</span><br>Web/App interfaces</li>
+                                <li><span>2023 Current(Int M.Tech (Cyber Security)) 8.34 CGPA</span><br>VIT Bhopal University</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------Skills-------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color: var(--secondary-color); ">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Develope the interactive web sites </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX </h2>
+                    <p>UI/UX developer </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Design Android</h2>
+                    <p>Develope the android like Professional </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ................portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Keylooger App</h3>
+                        <p>This app will store keystrokes of the device which is useful for parents to monitor the childrens activity with the help of this parents will be able to monitor the childrens activity.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Caeser Cipher Website</h3>
+                        <p>This website will convert plain text into cipher text using caeser cipher for the protection of data against any third party or a attacker who want to know the messages between those two people.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Application for promoting cyber awareness & implementing tools to prevent cybercrime</h3>
+                        <p>An application promoting cyber awareness and implementing tools to prevent cybercrime can play a crucial role in this effort The application can be useful for individuals looking to protect themselves and their families, as well as business owners looking to secure their company's digital assets.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more </a>
+        </div>
+    </div>
+
+    <!-- -----------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                       <h1 class="sub-title">Contact Me</h1>
+                       <p> <i class='bx bxs-paper-plane'></i> sidrabano540@gmail.com</p>
+                    <p> <i class='bx bxs-phone-call'></i>+91 8770550661</p>
+                       <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100055713411882&sk=photos_of"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://instagram.com/sidra__404__?igshid=ZGUzMzM3NWJiOQ=="><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.1007796"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/sidra4040"><i class='bx bxl-github'></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><i class='bx bxl-gmail' ></i></a>
+                       </div>
+                </div>
+                <div class="contact-right">
+
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+           <div class="copyright">
+            <p>Copyright&#169;2023 by Sidra |All rights reserved</p>
+           </div>
+    </div>
+    
+   
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
